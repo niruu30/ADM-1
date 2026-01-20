@@ -145,7 +145,6 @@
                     score++;
                 }
             }
-<<<<<<< HEAD
 
             submitButton.disabled = true; // Disable submit button after answering
             nextButton.style.display = "block"; // Show next button
@@ -166,21 +165,3 @@
     </script>
 
 </html>
-=======
-        
-            function nextQuestion() {
-                currentQuestion++;
-                loadQuestion();
-            }
-            
-            quizData.forEach(question => shuffledQuestions.push(question));
-            shuffleArray(shuffledQuestions);
-
-            const QUESTION_LIMIT = 50;
-            shuffledQuestions = shuffledQuestions.slice(0, QUESTION_LIMIT);
-            
-            loadQuestion();
-        </script>
-</html>
-
->>>>>>> f00daff1c43e8d35b92cfea376780b2af79b45b2
