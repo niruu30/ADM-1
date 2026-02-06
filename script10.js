@@ -287,19 +287,6 @@ const quizData = [
             { letter: "D", text: "Add Create Recurring Series of Tasks field on page layouts" }
         ],
         answer: ["C", "D"]
-    },
-    {
-        id: "q295",
-        isMultiple: true,
-        question: "Ursa Solar Major Is evaluating Salesforce for Its service team and would like to know what objects were available out of the box. Which three of the standard objects are available to an administrator considering a support use case? Choose 3 answers",
-        options: [
-            { letter: "A", text: "Request" },
-            { letter: "B", text: "Account" },
-            { letter: "C", text: "Ticket" },
-            { letter: "D", text: "Contact" },
-            { letter: "E", text: "Case" }
-        ],
-        answer: ["B", "D", "E"]
     }
 
 ];
