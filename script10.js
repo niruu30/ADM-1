@@ -300,18 +300,6 @@ const quizData = [
             { letter: "E", text: "Case" }
         ],
         answer: ["B", "D", "E"]
-    },
-    {
-        id: "q296",
-        isMultiple: true,
-        question: "Cloud Kicks intends to protect data with backups by using the data export service. Which two considerations should the administrator remember when scheduling the export? Choose 2 answers",
-        options: [
-            { letter: "A", text: "Metadata backups are limited to sandbox refresh intervals." },
-            { letter: "B", text: "Data backups are limited to weekly or monthly intervals." },
-            { letter: "C", text: "Metadata backups must be run via a separate process." },
-            { letter: "D", text: "Data export service should be run from a sandbox." }
-        ],
-        answer: ["A", "B"]
-    },
+    }
 
 ];

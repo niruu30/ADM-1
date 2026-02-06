@@ -301,15 +301,15 @@ const quizData = [
     },
     {
         id: "q86",
-        isMultiple: false,
-        question: "Universal Containers wants to create a new sales team that focuses exclusively on small to medium business customers. This group will track information with the same fields and picklist values but will need two new options on the stage field. How should the administrator accomplish this task?",
+        isMultiple: true,
+        question: "Cloud Kicks intends to protect data with backups by using the data export service. Which two considerations should the administrator remember when scheduling the export? Choose 2 answers",
         options: [
-            { letter: "A", text: "Create a new record type and sales process." },
-            { letter: "B", text: "Create a new record type and page layout." },
-            { letter: "C", text: "Create a new record type." },
-            { letter: "D", text: "Create a new sales process." }
+            { letter: "A", text: "Metadata backups are limited to sandbox refresh intervals." },
+            { letter: "B", text: "Data backups are limited to weekly or monthly intervals." },
+            { letter: "C", text: "Metadata backups must be run via a separate process." },
+            { letter: "D", text: "Data export service should be run from a sandbox." }
         ],
-        answer: "B"
+        answer: ["A", "B"]
     },
     {
         id: "q87",
