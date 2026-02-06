@@ -305,7 +305,7 @@ const quizData = [
     {
         id: "q116",
         isMultiple: true,
-        question: "Universal Containers has a Contact Lightning record page with a component that shows Unkedln data. The sales team would like to only show this component to sales users when they are on their mobile phones. Which two solutions should the administrator use to fulfill this requirement? Choose 2 answers",
+        question: "Universal Containers has a Contact Lightning record page with a component that shows Linkedln data. The sales team would like to only show this component to sales users when they are on their mobile phones. Which two solutions should the administrator use to fulfill this requirement? Choose 2 answers",
         options: [
             { letter: "A", text: "Filter the component visibility with View = Mobile/Tablet." },
             { letter: "B", text: "Filter the component visibility with Form Factor = Phone." },
