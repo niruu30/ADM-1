@@ -287,6 +287,78 @@ const quizData = [
             { letter: "D", text: "Add Create Recurring Series of Tasks field on page layouts" }
         ],
         answer: ["C", "D"]
+    },
+    {
+        id: "q295",
+        isMultiple: false,
+        question: "A sales manager at Cloud Kicks would like a dashboard to emphasize some important data and tell a more compelling data story to the sales reps. How should a Platform Administrator achieve this for the sales manager?",
+        options: [
+            { letter: "A", text: "Use a Text Widget." },
+            { letter: "B", text: "Assign a new Task to each rep." },
+            { letter: "C", text: "Use the Highlights Panel." },
+            { letter: "D", text: "Send out a mass email." }
+        ],
+        answer: "A"
+    },
+    {
+        id: "q296",
+        isMultiple: false,
+        question: "Which component of an approval process defines the chain of approval, determines which records can advance, and specifies where to assign approval requests?1717",
+        options: [
+            { letter: "A", text: "Process Definition Detail" },
+            { letter: "B", text: "Approval Steps" },
+            { letter: "C", text: "Entry Criteria" },
+            { letter: "D", text: "Approval Actions" }
+        ],
+        answer: "B"
+    },
+    {
+        id: "q297",
+        isMultiple: true,
+        question: "An administrator at DreamHouse Realty needs to create customized pages for the Salesforce mobile app. Which two types of pages should a Platform Administrator build and customize using the Lightning App Builder?",
+        options: [
+            { letter: "A", text: "App page" },
+            { letter: "B", text: "User page" },
+            { letter: "C", text: "Record page" },
+            { letter: "D", text: "Dashboard page" }
+        ],
+        answer: ["A", "C"]
+    },
+    {
+        id: "q298",
+        isMultiple: false,
+        question: "A Platform Administrator is building an agent to nurture leads. How does Agentforce SDR help?",
+        options: [
+            { letter: "A", text: "Generate a dynamic call script and talking points for the human sales reps to use." },
+            { letter: "B", text: "Autonomously negotiate pricing with the lead and close the final deal." },
+            { letter: "C", text: "Analyze the performance of human sales reps and provide coaching tips." },
+            { letter: "D", text: "Answer the lead's questions with responses that are grounded in company data." }
+        ],
+        answer: "D"
+    },
+    {
+        id: "q299",
+        isMultiple: false,
+        question: "Users have reported that the new Lightning account record page is loading very slowly. Which feature should a Platform Administrator use to determine the cause of the performance issues?2424",
+        options: [
+            { letter: "A", text: "Lightning Analytics" },
+            { letter: "B", text: "Lightning Usage App" },
+            { letter: "C", text: "Lightning Page Visibility Rule" },
+            { letter: "D", text: "Lightning App Builder Analytics" }
+        ],
+        answer: "D"
+    },
+    {
+        id: "q300",
+        isMultiple: true,
+        question: "Northern Trail Outfitters wants to initiate expense reports from Salesforce to the external HR system. Managers and directors need to review this process. Which two tools should a Platform Administrator configure?",
+        options: [
+            { letter: "A", text: "Outbound Message" },
+            { letter: "B", text: "Email Alert Action" },
+            { letter: "C", text: "Quick Action" },
+            { letter: "D", text: "Approval Process" }
+        ],
+        answer: ["A", "D"]
     }
 
 ];
