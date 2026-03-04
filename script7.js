@@ -9,7 +9,7 @@ const quizData = [
             { letter: "C", text: "Ensure that the page layout for the user's profile has been updated." },
             { letter: "D", text: "Review the field-level security of the field for the user profile." }
         ],
-        answer: ["B", "D"]
+        answer: ["C", "D"]
     },
     {
         id: "q182",
