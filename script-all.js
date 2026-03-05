@@ -1806,7 +1806,7 @@ const quizData = [
             { letter: "C", text: "Detail Column" },
             { letter: "D", text: "Bucket Column" }
         ],
-        answer: ""
+        answer: "D"
     },
     {
         id: "q151",
