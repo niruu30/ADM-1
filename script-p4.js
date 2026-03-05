@@ -1007,6 +1007,30 @@ const quizData = [
             { letter: "D", text: "Save the report in a private folder for the user" }
         ],
         answer: "B"
+    },
+    {
+        id: "q385",
+        isMultiple: false,
+        question: "A Platform Administrator at Cloud Kicks received a request from the head of sales operations to create a process in which opportunities must be validated by specific team leaders based on a mix of criteria. When the administrator analysed the list of criteria, they found that there were 30 potential sets of criteria that would identify the proper person to route the request to. How should the administrator fulfill this request?",
+        options: [
+            { letter: "A", text: "Create a button on the opportunity that brings up an email template to send to the correct leader." },
+            { letter: "B", text: "Create an approval process with specific entry criteria and approval steps for each of the sets of criteria specified." },
+            { letter: "C", text: "Create a record triggered flow orchestration to properly route the requests." },
+            { letter: "D", text: "Use a screen flow to allow the seller to input the criteria in a form that is then sent to the appropriate leader." }
+        ],
+        answer: "B"
+    },
+    {
+        id: "q386",
+        isMultiple: false,
+        question: "A sales rep has left the company, and a Platform Administrator has been asked to re-assign all their accounts and opportunities to a new sales rep and keep the team as is. Which tool should the administrator use to accomplish this?",
+        options: [
+            { letter: "A", text: "Data Loader" },
+            { letter: "B", text: "Dataloader.io" },
+            { letter: "C", text: "Mass Transfer Records" },
+            { letter: "D", text: "Data Import Wizard" }
+        ],
+        answer: "C"
     }
 
 ];
