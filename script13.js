@@ -310,6 +310,54 @@ const quizData = [
             { letter: "D", text: "Data Import Wizard" }
         ],
         answer: "C"
+    },
+    {
+        id: "q387",
+        isMultiple: false,
+        question: "The VP of sales at AW Computing would like sales reps to check in with their top account every Monday. The VP would like a dashboard component to show the status of the check-ins. What should a Platform Administrator configure to remind the reps to contact their top account?",
+        options: [
+            { letter: "A", text: "Create a time-based workflow task." },
+            { letter: "B", text: "Enable the creation of recurring tasks." },
+            { letter: "C", text: "Add the email action to the page layout." },
+            { letter: "D", text: "Use a process email alert on the account." }
+        ],
+        answer: "B"
+    },
+    {
+        id: "q388",
+        isMultiple: false,
+        question: "Cloud Kicks has implemented an Employee Agent to answer benefits questions for its employees. How should a Platform Administrator prevent the agent from responding to staff members' questions about the CEO's private health plan and benefits?",
+        options: [
+            { letter: "A", text: "Train the agent on employee health plans instead of the CEO's health plan." },
+            { letter: "B", text: "Modify the agent's instructions and guardrails to block questions related to the CEO's health plan." },
+            { letter: "C", text: "Ensure the users' permissions and field-level security restrict access to the CEO's health plan." },
+            { letter: "D", text: "Configure assignment rules to assign the agent to employee data." }
+        ],
+        answer: "C"
+    },
+    {
+        id: "q389",
+        isMultiple: false,
+        question: "Northern Trail Outfitters has two different sales processes: one for business opportunities with four stages and one for partner opportunities with eight stages. Both processes will vary in page layouts and picklist value options. What should a Platform Administrator configure to meet these requirements?",
+        options: [
+            { letter: "A", text: "Different page layouts that control the picklist values for the opportunity types" },
+            { letter: "B", text: "Separate record types and sales processes for the different types of opportunities" },
+            { letter: "C", text: "Validation rules that ensure that users are entering accurate sales stage information" },
+            { letter: "D", text: "Public groups to limit record types and sales processes for opportunities" }
+        ],
+        answer: "B"
+    },
+    {
+        id: "q390",
+        isMultiple: false,
+        question: "A Platform Administrator wants to customize the navigation menu for users in the Salesforce mobile app. The organization has not yet implemented any Lightning apps for mobile use. Which statement about the Mobile Only app navigation is correct?",
+        options: [
+            { letter: "A", text: "Lightning pages and Visualforce pages automatically appear in the Mobile Only navigation menu without requiring tabs to be created first." },
+            { letter: "B", text: "The Mobile Only app can be customized to show different navigation menus for different user profiles and permission sets." },
+            { letter: "C", text: "The first four items in the Mobile Only navigation menu appear both in the navigation menu and in the navigation bar at the bottom of the screen." },
+            { letter: "D", text: "The Mobile Only app automatically includes all standard Salesforce objects in the navigation menu based on user permissions." }
+        ],
+        answer: "C"
     }
 
 ];

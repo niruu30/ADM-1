@@ -96,4 +96,16 @@ const quizData = [
         ],
         answer: "C"
     },
+    {
+        id: "q396",
+        isMultiple: false,
+        question: "A sales rep typically has several open opportunities for each of their accounts. Which tool should a Platform Administrator suggest to the sales rep to obtain the total number of accounts associated with open opportunities in a report?",
+        options: [
+            { letter: "A", text: "Bucket Column" },
+            { letter: "B", text: "Report Filter" },
+            { letter: "C", text: "Unique Count" },
+            { letter: "D", text: "Group Rows" }
+        ],
+        answer: "C"
+    }
 ];

@@ -61,11 +61,15 @@ img {
 
 .question {
     margin-bottom: 10px;
+    font-size: 0.80em;
+    font-weight: bold;
 }
 
 .options label {
     display: block;
     margin-bottom: 5px;
+    font-size: 0.80em;
+    font-weight: bold;
 }
 
 .result {
@@ -74,6 +78,7 @@ img {
 }
 
 .answer {
+    font-size: 0.80em;
     font-weight: bold;
 }
 
