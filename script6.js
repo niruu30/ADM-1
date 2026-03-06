@@ -365,4 +365,5 @@ const quizData = [
         ],
         answer: ["A", "D"]
     }
+
 ];

@@ -162,14 +162,14 @@ const quizData = [
     {
         id: "q44",
         isMultiple: true,
-        question: "Northern Trail Outfitters wants to initiate expense reports from Salesforce to the external HR system. This process needs to be reviewed by managers and directors. Which two tools should an administrator configure? Choose 2 answers",
+        question: "The administrator at Cloud Kicks has been told that users are unable to add repeating tasks in Salesforce. Which two solutions should the administrator use to ensure users are able to do this? Choose 2 answers",
         options: [
-            { letter: "A", text: "Quick Action" },
-            { letter: "B", text: "Approval Process" },
-            { letter: "C", text: "Outbound Message" },
-            { letter: "D", text: "Email Alert Action" }
+            { letter: "A", text: "Turn on Task Notifications Service" },
+            { letter: "B", text: "Disable Shared Activities" },
+            { letter: "C", text: "Enable Creation of Recurring Tasks in Activity Settings" },
+            { letter: "D", text: "Add Create Recurring Series of Tasks field on page layouts" }
         ],
-        answer: ["B", "C"]
+        answer: ["C", "D"]
     },
     {
         id: "q45",
@@ -186,14 +186,14 @@ const quizData = [
     {
         id: "q46",
         isMultiple: true,
-        question: "Universal Container's administrator has been asked to create a many-to-many relationship between two existing custom objects. Which two steps should the administrator take when enabling the many-to-many relationship? Choose 2 answers",
+        question: "Recently, one of Ursa Major Solar's (UMS) competitors lost critical data after a powerful hurricane caused multiple power outages. UMS needs to ensure that its Salesforce data is backed up an protected from such an event. Which two statements are true regarding this goal?",
         options: [
-            { letter: "A", text: "Create a junction with a custom object." },
-            { letter: "B", text: "Create two lookup relationships on the new object." },
-            { letter: "C", text: "Create two master-detail relationships on the new object." },
-            { letter: "D", text: "Create URL fields on a custom object." }
+            { letter: "A", text: "UMS should contact Salesforce Support for a free backup." },
+            { letter: "B", text: "UMS can download an app from the AppExchange." },
+            { letter: "C", text: "UMS can use Salesforce's daily backup service, which is provided via a zip file." },
+            { letter: "D", text: "UMS can use Salesforce's weekly or monthly backup service, which is provided via a zip file." }
         ],
-        answer: ["A", "C"]
+        answer: ["B", "D"]
     },
     {
         id: "q47",

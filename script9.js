@@ -205,15 +205,15 @@ const quizData = [
     },
     {
         id: "q258",
-        isMultiple: false,
-        question: "The VP of sales at Cloud Kicks is receiving an error message that prevents them from saving an opportunity. The administrator attempted the same edit without receiving an error. How can the administrator validate the error the user is receiving?",
+        isMultiple: true,
+        question: "An administrator at Universal Containers has been asked to prevent users from accessing Salesforce from outside of their network. What are two considerations for this configuration? Choose 2 answers",
         options: [
-            { letter: "A", text: "View the setup audit trail." },
-            { letter: "B", text: "Edit the page layout." },
-            { letter: "C", text: "Review the sharing model." },
-            { letter: "D", text: "Log in as the user" }
+            { letter: "A", text: "Enforce Login IP Ranges on Every Request must be selected to enforce IP restrictions." },
+            { letter: "B", text: "IP address restrictions are set on the profile or globally for the org." },
+            { letter: "C", text: "Single sign-on will allow users to Jog In from anywhere." },
+            { letter: "D", text: "Users can change their password to avoid login IP restrictions." }
         ],
-        answer: "D"
+        answer: ["A", "B"]
     },
     {
         id: "q259",
@@ -229,15 +229,15 @@ const quizData = [
     },
     {
         id: "q260",
-        isMultiple: false,
-        question: "Cloud Kicks (CK) Is partnering with a used shoe store and second-hand bicycle emporium. CK has an automated business process it wants to run once a week to count the number of open cases related to an account. How should the administrator recommend automating this business process?",
+        isMultiple: true,
+        question: "Anytime an Opportunity is moved to Closed Won, Sales reps at Universal Containers (UC) are supposed to create a record on a child object of Opportunities called Survey Request. This action, however, does not always occur. Sales reps do not always populate all fields correctly. Which two tools should be used to remove permissions from Sales to create these records and automate record creation? Choose 2 answers",
         options: [
-            { letter: "A", text: "Set up a scheduled process in Process Builder." },
-            { letter: "B", text: "Create a workflow rule with an outbound message." },
-            { letter: "C", text: "Use a process to update the account when It is edited." },
-            { letter: "D", text: "Configure a scheduled flow in Flow Builder." }
+            { letter: "A", text: "Flow" },
+            { letter: "B", text: "Approvals" },
+            { letter: "C", text: "Workflow" },
+            { letter: "D", text: "Process Builder" }
         ],
-        answer: "D"
+        answer: ["A", "D"]
     },
     {
         id: "q261",
@@ -253,15 +253,15 @@ const quizData = [
     },
     {
         id: "q262",
-        isMultiple: false,
-        question: "Cloud Kicks (CK) has a new administrator who is asked to put together a memo detailing Salesforce usage to budget for upcoming license purchases. Where should the administrator go to find out what type of licenses CK has purchased and how many are available?",
+        isMultiple: true,
+        question: "What are two considerations when activating and assigning Themes and Branding? Choose 2 answers",
         options: [
-            { letter: "A", text: "Search for licenses types in setup" },
-            { letter: "B", text: "Entitlements related list in company information" },
-            { letter: "C", text: "User management settings in setup" },
-            { letter: "D", text: "User licenses related list in company information" }
+            { letter: "A", text: "Themes apply to both Lightning Experience and mobile." },
+            { letter: "B", text: "Only one Theme can be applied in an org at a time." },
+            { letter: "C", text: "Up to 300 custom Themes can be created per org." },
+            { letter: "D", text: "Each profile can be applied a different Theme." }
         ],
-        answer: "D"
+        answer: ["B", "C"]
     },
     {
         id: "q263",
@@ -277,15 +277,15 @@ const quizData = [
     },
     {
         id: "q264",
-        isMultiple: false,
-        question: "Cloud Kicks wants users to only be able to choose Opportunity stage closed won If the Lead source has been selected. How should the administrator accomplish this goal?",
+        isMultiple: true,
+        question: "The administrator at Cloud Kicks has been asked to change the company's Shoe Style field to prevent users from selecting more than one style on a record. Which two steps should an administrator do to accomplish this? Choose 2 answers",
         options: [
-            { letter: "A", text: "Configure a validation rule requiring Lead source when the stage is set to closed won." },
-            { letter: "B", text: "Change the Opportunity stage field to read only on the page layout." },
-            { letter: "C", text: "Modify the Opportunity stage a dependent picklist to the Lead source field." },
-            { letter: "D", text: "Make Lead source a dependent picklist to the Opportunity stage field." }
+            { letter: "A", text: "Back-up the Shoe Style values in existing records." },
+            { letter: "B", text: "Change the field type from a multi-select picklist field to a picklist field." },
+            { letter: "C", text: "Select the 'Choose only one value' checkbox on the picklist field." },
+            { letter: "D", text: "Reactivate the appropriate Shoe Style values after the field type changes." }
         ],
-        answer: "A"
+        answer: ["A", "B"]
     },
     {
         id: "q265",

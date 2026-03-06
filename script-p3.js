@@ -688,15 +688,15 @@ const quizData = [
     },
     {
         id: "q258",
-        isMultiple: false,
-        question: "The VP of sales at Cloud Kicks is receiving an error message that prevents them from saving an opportunity. The administrator attempted the same edit without receiving an error. How can the administrator validate the error the user is receiving?",
+        isMultiple: true,
+        question: "An administrator at Universal Containers has been asked to prevent users from accessing Salesforce from outside of their network. What are two considerations for this configuration? Choose 2 answers",
         options: [
-            { letter: "A", text: "View the setup audit trail." },
-            { letter: "B", text: "Edit the page layout." },
-            { letter: "C", text: "Review the sharing model." },
-            { letter: "D", text: "Log in as the user" }
+            { letter: "A", text: "Enforce Login IP Ranges on Every Request must be selected to enforce IP restrictions." },
+            { letter: "B", text: "IP address restrictions are set on the profile or globally for the org." },
+            { letter: "C", text: "Single sign-on will allow users to Jog In from anywhere." },
+            { letter: "D", text: "Users can change their password to avoid login IP restrictions." }
         ],
-        answer: "D"
+        answer: ["A", "B"]
     },
     {
         id: "q259",
@@ -712,15 +712,15 @@ const quizData = [
     },
     {
         id: "q260",
-        isMultiple: false,
-        question: "Cloud Kicks (CK) Is partnering with a used shoe store and second-hand bicycle emporium. CK has an automated business process it wants to run once a week to count the number of open cases related to an account. How should the administrator recommend automating this business process?",
+        isMultiple: true,
+        question: "Anytime an Opportunity is moved to Closed Won, Sales reps at Universal Containers (UC) are supposed to create a record on a child object of Opportunities called Survey Request. This action, however, does not always occur. Sales reps do not always populate all fields correctly. Which two tools should be used to remove permissions from Sales to create these records and automate record creation? Choose 2 answers",
         options: [
-            { letter: "A", text: "Set up a scheduled process in Process Builder." },
-            { letter: "B", text: "Create a workflow rule with an outbound message." },
-            { letter: "C", text: "Use a process to update the account when It is edited." },
-            { letter: "D", text: "Configure a scheduled flow in Flow Builder." }
+            { letter: "A", text: "Flow" },
+            { letter: "B", text: "Approvals" },
+            { letter: "C", text: "Workflow" },
+            { letter: "D", text: "Process Builder" }
         ],
-        answer: "D"
+        answer: ["A", "D"]
     },
     {
         id: "q261",
@@ -736,15 +736,15 @@ const quizData = [
     },
     {
         id: "q262",
-        isMultiple: false,
-        question: "Cloud Kicks (CK) has a new administrator who is asked to put together a memo detailing Salesforce usage to budget for upcoming license purchases. Where should the administrator go to find out what type of licenses CK has purchased and how many are available?",
+        isMultiple: true,
+        question: "What are two considerations when activating and assigning Themes and Branding? Choose 2 answers",
         options: [
-            { letter: "A", text: "Search for licenses types in setup" },
-            { letter: "B", text: "Entitlements related list in company information" },
-            { letter: "C", text: "User management settings in setup" },
-            { letter: "D", text: "User licenses related list in company information" }
+            { letter: "A", text: "Themes apply to both Lightning Experience and mobile." },
+            { letter: "B", text: "Only one Theme can be applied in an org at a time." },
+            { letter: "C", text: "Up to 300 custom Themes can be created per org." },
+            { letter: "D", text: "Each profile can be applied a different Theme." }
         ],
-        answer: "D"
+        answer: ["B", "C"]
     },
     {
         id: "q263",
@@ -760,15 +760,15 @@ const quizData = [
     },
     {
         id: "q264",
-        isMultiple: false,
-        question: "Cloud Kicks wants users to only be able to choose Opportunity stage closed won If the Lead source has been selected. How should the administrator accomplish this goal?",
+        isMultiple: true,
+        question: "The administrator at Cloud Kicks has been asked to change the company's Shoe Style field to prevent users from selecting more than one style on a record. Which two steps should an administrator do to accomplish this? Choose 2 answers",
         options: [
-            { letter: "A", text: "Configure a validation rule requiring Lead source when the stage is set to closed won." },
-            { letter: "B", text: "Change the Opportunity stage field to read only on the page layout." },
-            { letter: "C", text: "Modify the Opportunity stage a dependent picklist to the Lead source field." },
-            { letter: "D", text: "Make Lead source a dependent picklist to the Opportunity stage field." }
+            { letter: "A", text: "Back-up the Shoe Style values in existing records." },
+            { letter: "B", text: "Change the field type from a multi-select picklist field to a picklist field." },
+            { letter: "C", text: "Select the 'Choose only one value' checkbox on the picklist field." },
+            { letter: "D", text: "Reactivate the appropriate Shoe Style values after the field type changes." }
         ],
-        answer: "A"
+        answer: ["A", "B"]
     },
     {
         id: "q265",
@@ -1021,187 +1021,6 @@ const quizData = [
             { letter: "D", text: "A user with the Manage Cases permission." }
         ],
         answer: ["B", "D"]
-    },
-    {
-        id: "q286",
-        isMultiple: true,
-        question: "Which two capabilities are considerations when marking a field as required In Object Manager? Choose 2 answers",
-        options: [
-            { letter: "A", text: "The field Is added to every page layout on that object." },
-            { letter: "B", text: "The field Is optional when saving records via web-to-lead and web-to-case." },
-            { letter: "C", text: "The field Is universally required to save a record on that object." },
-            { letter: "D", text: "The field Is not required to save records via the API on that object." }
-        ],
-        answer: ["A", "C"]
-    },
-    {
-        id: "q287",
-        isMultiple: true,
-        question: "An administrator at Universal Containers has been asked to prevent users from accessing Salesforce from outside of their network. What are two considerations for this configuration? Choose 2 answers",
-        options: [
-            { letter: "A", text: "Enforce Login IP Ranges on Every Request must be selected to enforce IP restrictions." },
-            { letter: "B", text: "IP address restrictions are set on the profile or globally for the org." },
-            { letter: "C", text: "Single sign-on will allow users to Jog In from anywhere." },
-            { letter: "D", text: "Users can change their password to avoid login IP restrictions." }
-        ],
-        answer: ["A", "B"]
-    },
-    {
-        id: "q288",
-        isMultiple: true,
-        question: "What are two considerations when activating and assigning Themes and Branding? Choose 2 answers",
-        options: [
-            { letter: "A", text: "Themes apply to both Lightning Experience and mobile." },
-            { letter: "B", text: "Only one Theme can be applied in an org at a time." },
-            { letter: "C", text: "Up to 300 custom Themes can be created per org." },
-            { letter: "D", text: "Each profile can be applied a different Theme." }
-        ],
-        answer: ["B", "C"]
-    },
-    {
-        id: "q289",
-        isMultiple: true,
-        question: "The administrator at Cloud Kicks has been asked to change the company's Shoe Style field to prevent users from selecting more than one style on a record. Which two steps should an administrator do to accomplish this? Choose 2 answers",
-        options: [
-            { letter: "A", text: "Back-up the Shoe Style values in existing records." },
-            { letter: "B", text: "Change the field type from a multi-select picklist field to a picklist field." },
-            { letter: "C", text: "Select the 'Choose only one value' checkbox on the picklist field." },
-            { letter: "D", text: "Reactivate the appropriate Shoe Style values after the field type changes." }
-        ],
-        answer: ["A", "B"]
-    },
-    {
-        id: "q290",
-        isMultiple: true,
-        question: "Anytime an Opportunity is moved to Closed Won, Sales reps at Universal Containers (UC) are supposed to create a record on a child object of Opportunities called Survey Request. This action, however, does not always occur. Sales reps do not always populate all fields correctly. Which two tools should be used to remove permissions from Sales to create these records and automate record creation? Choose 2 answers",
-        options: [
-            { letter: "A", text: "Flow" },
-            { letter: "B", text: "Approvals" },
-            { letter: "C", text: "Workflow" },
-            { letter: "D", text: "Process Builder" }
-        ],
-        answer: ["A", "D"]
-    },
-    {
-        id: "q291",
-        isMultiple: true,
-        question: "Ursa Major Solar wants to use the Salesforce approval process. What are two characteristics that make a sales process a good fit for the Salesforce approval process? Choose 2 answers",
-        options: [
-            { letter: "A", text: "There is an approval to a queue member for all Opportunities and an additional approval by a Sales VP for Opportunities over a certain amount." },
-            { letter: "B", text: "The first level approval can be denied and automatically routed to the Sales VP for final approval." },
-            { letter: "C", text: "The approval manager is randomly assigned from a public group of managers, and there is a second approval by the Sales VP." },
-            { letter: "D", text: "There are approvals for all Opportunities by a Sales VP where a Sales VP is allowed to delegate their approval to someone else." }
-        ],
-        answer: ["A", "B"]
-    },
-    {
-        id: "q292",
-        isMultiple: true,
-        question: "Recently, one of Ursa Major Solar's (UMS) competitors lost critical data after a powerful hurricane caused multiple power outages. UMS needs to ensure that its Salesforce data is backed up an protected from such an event. Which two statements are true regarding this goal?",
-        options: [
-            { letter: "A", text: "UMS should contact Salesforce Support for a free backup." },
-            { letter: "B", text: "UMS can download an app from the AppExchange." },
-            { letter: "C", text: "UMS can use Salesforce's daily backup service, which is provided via a zip file." },
-            { letter: "D", text: "UMS can use Salesforce's weekly or monthly backup service, which is provided via a zip file." }
-        ],
-        answer: ["B", "D"]
-    },
-    {
-        id: "q293",
-        isMultiple: true,
-        question: "Ursa Major Solar is bringing a new type of solar panel to market. An administrator needs to create a sales process for this new product. Os) What are three considerations for the administrator in this scenario? Choose 3 answers",
-        options: [
-            { letter: "A", text: "The record type name assignment becomes permanent upon save of a new record type." },
-            { letter: "B", text: "An opportunity record type will need to be created and assigned to the sales process." },
-            { letter: "C", text: "The record type's page layout is assigned to users through their profile assignments." },
-            { letter: "D", text: "Adding a new value to the record type master picklist value list adds the value to all existing record type picklists." },
-            { letter: "E", text: "All picklist values on the page layout must be added to the master picklist value list or be active values." }
-        ],
-        answer: ["B", "C", "E"]
-    },
-    {
-        id: "q294",
-        isMultiple: true,
-        question: "The administrator at Cloud Kicks has been told that users are unable to add repeating tasks in Salesforce. Which two solutions should the administrator use to ensure users are able to do this? Choose 2 answers",
-        options: [
-            { letter: "A", text: "Turn on Task Notifications Service" },
-            { letter: "B", text: "Disable Shared Activities" },
-            { letter: "C", text: "Enable Creation of Recurring Tasks in Activity Settings" },
-            { letter: "D", text: "Add Create Recurring Series of Tasks field on page layouts" }
-        ],
-        answer: ["C", "D"]
-    },
-    {
-        id: "q295",
-        isMultiple: false,
-        question: "A sales manager at Cloud Kicks would like a dashboard to emphasize some important data and tell a more compelling data story to the sales reps. How should a Platform Administrator achieve this for the sales manager?",
-        options: [
-            { letter: "A", text: "Use a Text Widget." },
-            { letter: "B", text: "Assign a new Task to each rep." },
-            { letter: "C", text: "Use the Highlights Panel." },
-            { letter: "D", text: "Send out a mass email." }
-        ],
-        answer: "A"
-    },
-    {
-        id: "q296",
-        isMultiple: false,
-        question: "Which component of an approval process defines the chain of approval, determines which records can advance, and specifies where to assign approval requests?1717",
-        options: [
-            { letter: "A", text: "Process Definition Detail" },
-            { letter: "B", text: "Approval Steps" },
-            { letter: "C", text: "Entry Criteria" },
-            { letter: "D", text: "Approval Actions" }
-        ],
-        answer: "B"
-    },
-    {
-        id: "q297",
-        isMultiple: true,
-        question: "An administrator at DreamHouse Realty needs to create customized pages for the Salesforce mobile app. Which two types of pages should a Platform Administrator build and customize using the Lightning App Builder?",
-        options: [
-            { letter: "A", text: "App page" },
-            { letter: "B", text: "User page" },
-            { letter: "C", text: "Record page" },
-            { letter: "D", text: "Dashboard page" }
-        ],
-        answer: ["A", "C"]
-    },
-    {
-        id: "q298",
-        isMultiple: false,
-        question: "A Platform Administrator is building an agent to nurture leads. How does Agentforce SDR help?",
-        options: [
-            { letter: "A", text: "Generate a dynamic call script and talking points for the human sales reps to use." },
-            { letter: "B", text: "Autonomously negotiate pricing with the lead and close the final deal." },
-            { letter: "C", text: "Analyze the performance of human sales reps and provide coaching tips." },
-            { letter: "D", text: "Answer the lead's questions with responses that are grounded in company data." }
-        ],
-        answer: "D"
-    },
-    {
-        id: "q299",
-        isMultiple: false,
-        question: "Users have reported that the new Lightning account record page is loading very slowly. Which feature should a Platform Administrator use to determine the cause of the performance issues?2424",
-        options: [
-            { letter: "A", text: "Lightning Analytics" },
-            { letter: "B", text: "Lightning Usage App" },
-            { letter: "C", text: "Lightning Page Visibility Rule" },
-            { letter: "D", text: "Lightning App Builder Analytics" }
-        ],
-        answer: "D"
-    },
-    {
-        id: "q300",
-        isMultiple: true,
-        question: "Northern Trail Outfitters wants to initiate expense reports from Salesforce to the external HR system. Managers and directors need to review this process. Which two tools should a Platform Administrator configure?",
-        options: [
-            { letter: "A", text: "Outbound Message" },
-            { letter: "B", text: "Email Alert Action" },
-            { letter: "C", text: "Quick Action" },
-            { letter: "D", text: "Approval Process" }
-        ],
-        answer: ["A", "D"]
     }
 
 ];

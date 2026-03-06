@@ -45,7 +45,7 @@ const quizData = [
             { letter: "C", text: "Create a sharing rule so that other agents can view events." },
             { letter: "D", text: "Create an approval process on the Campaign object." }
         ],
-        answer: "C"
+        answer: "D"
     },
     {
         id: "q65",
@@ -253,15 +253,15 @@ const quizData = [
     },
     {
         id: "q82",
-        isMultiple: false,
-        question: "Ursa Major Solar recently enabled the multiple currencies feature. As a result, which currency will be used as the foundation for all currency conversion rates?",
+        isMultiple: true,
+        question: "Which two capabilities are considerations when marking a field as required In Object Manager? Choose 2 answers",
         options: [
-            { letter: "A", text: "Corporate currency" },
-            { letter: "B", text: "Active currency" },
-            { letter: "C", text: "Personal currency" },
-            { letter: "D", text: "Record currency" }
+            { letter: "A", text: "The field Is added to every page layout on that object." },
+            { letter: "B", text: "The field Is optional when saving records via web-to-lead and web-to-case." },
+            { letter: "C", text: "The field Is universally required to save a record on that object." },
+            { letter: "D", text: "The field Is not required to save records via the API on that object." }
         ],
-        answer: "A"
+        answer: ["A", "C"]
     },
     {
         id: "q83",

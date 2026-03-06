@@ -37,15 +37,15 @@ const quizData = [
     },
     {
         id: "q4",
-        isMultiple: false,
-        question: "A sales rep has a list of 300 accounts with contacts that they want to load at one time. Which tool should the administrator utilize to import the records to Salesforce?",
+        isMultiple: true,
+        question: "Ursa Major Solar wants to use the Salesforce approval process. What are two characteristics that make a sales process a good fit for the Salesforce approval process? Choose 2 answers",
         options: [
-            { letter: "A", text: "Data Import Wizard" },
-            { letter: "B", text: "Manual Import" },
-            { letter: "C", text: "Dataloader.io" },
-            { letter: "D", text: "Data Loader" }
+            { letter: "A", text: "There is an approval to a queue member for all Opportunities and an additional approval by a Sales VP for Opportunities over a certain amount." },
+            { letter: "B", text: "The first level approval can be denied and automatically routed to the Sales VP for final approval." },
+            { letter: "C", text: "The approval manager is randomly assigned from a public group of managers, and there is a second approval by the Sales VP." },
+            { letter: "D", text: "There are approvals for all Opportunities by a Sales VP where a Sales VP is allowed to delegate their approval to someone else." }
         ],
-        answer: "A"
+        answer: ["A", "B"]
     },
     {
         id: "q5",
@@ -157,15 +157,16 @@ const quizData = [
     },
     {
         id: "q14",
-        isMultiple: false,
-        question: "An administrator at Universal Containers needs an automated way to delete records based on field values. What automated solution should the administrator use?",
+        isMultiple: true,
+        question: "Ursa Major Solar is bringing a new type of solar panel to market. An administrator needs to create a sales process for this new product. Os) What are three considerations for the administrator in this scenario? Choose 3 answers",
         options: [
-            { letter: "A", text: "Process Builder" },
-            { letter: "B", text: "Flow Builder" },
-            { letter: "C", text: "Workflow" },
-            { letter: "D", text: "Automation Studio" }
+            { letter: "A", text: "The record type name assignment becomes permanent upon save of a new record type." },
+            { letter: "B", text: "An opportunity record type will need to be created and assigned to the sales process." },
+            { letter: "C", text: "The record type's page layout is assigned to users through their profile assignments." },
+            { letter: "D", text: "Adding a new value to the record type master picklist value list adds the value to all existing record type picklists." },
+            { letter: "E", text: "All picklist values on the page layout must be added to the master picklist value list or be active values." }
         ],
-        answer: "B"
+        answer: ["B", "C", "E"]
     },
     {
         id: "q15",
@@ -522,14 +523,14 @@ const quizData = [
     {
         id: "q44",
         isMultiple: true,
-        question: "Northern Trail Outfitters wants to initiate expense reports from Salesforce to the external HR system. This process needs to be reviewed by managers and directors. Which two tools should an administrator configure? Choose 2 answers",
+        question: "The administrator at Cloud Kicks has been told that users are unable to add repeating tasks in Salesforce. Which two solutions should the administrator use to ensure users are able to do this? Choose 2 answers",
         options: [
-            { letter: "A", text: "Quick Action" },
-            { letter: "B", text: "Approval Process" },
-            { letter: "C", text: "Outbound Message" },
-            { letter: "D", text: "Email Alert Action" }
+            { letter: "A", text: "Turn on Task Notifications Service" },
+            { letter: "B", text: "Disable Shared Activities" },
+            { letter: "C", text: "Enable Creation of Recurring Tasks in Activity Settings" },
+            { letter: "D", text: "Add Create Recurring Series of Tasks field on page layouts" }
         ],
-        answer: ["B", "C"]
+        answer: ["C", "D"]
     },
     {
         id: "q45",
@@ -546,14 +547,14 @@ const quizData = [
     {
         id: "q46",
         isMultiple: true,
-        question: "Universal Container's administrator has been asked to create a many-to-many relationship between two existing custom objects. Which two steps should the administrator take when enabling the many-to-many relationship? Choose 2 answers",
+        question: "Recently, one of Ursa Major Solar's (UMS) competitors lost critical data after a powerful hurricane caused multiple power outages. UMS needs to ensure that its Salesforce data is backed up an protected from such an event. Which two statements are true regarding this goal?",
         options: [
-            { letter: "A", text: "Create a junction with a custom object." },
-            { letter: "B", text: "Create two lookup relationships on the new object." },
-            { letter: "C", text: "Create two master-detail relationships on the new object." },
-            { letter: "D", text: "Create URL fields on a custom object." }
+            { letter: "A", text: "UMS should contact Salesforce Support for a free backup." },
+            { letter: "B", text: "UMS can download an app from the AppExchange." },
+            { letter: "C", text: "UMS can use Salesforce's daily backup service, which is provided via a zip file." },
+            { letter: "D", text: "UMS can use Salesforce's weekly or monthly backup service, which is provided via a zip file." }
         ],
-        answer: ["A", "C"]
+        answer: ["B", "D"]
     },
     {
         id: "q47",
@@ -770,7 +771,7 @@ const quizData = [
             { letter: "C", text: "Create a sharing rule so that other agents can view events." },
             { letter: "D", text: "Create an approval process on the Campaign object." }
         ],
-        answer: "C"
+        answer: "D"
     },
     {
         id: "q65",
@@ -978,15 +979,15 @@ const quizData = [
     },
     {
         id: "q82",
-        isMultiple: false,
-        question: "Ursa Major Solar recently enabled the multiple currencies feature. As a result, which currency will be used as the foundation for all currency conversion rates?",
+        isMultiple: true,
+        question: "Which two capabilities are considerations when marking a field as required In Object Manager? Choose 2 answers",
         options: [
-            { letter: "A", text: "Corporate currency" },
-            { letter: "B", text: "Active currency" },
-            { letter: "C", text: "Personal currency" },
-            { letter: "D", text: "Record currency" }
+            { letter: "A", text: "The field Is added to every page layout on that object." },
+            { letter: "B", text: "The field Is optional when saving records via web-to-lead and web-to-case." },
+            { letter: "C", text: "The field Is universally required to save a record on that object." },
+            { letter: "D", text: "The field Is not required to save records via the API on that object." }
         ],
-        answer: "A"
+        answer: ["A", "C"]
     },
     {
         id: "q83",

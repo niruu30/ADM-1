@@ -37,15 +37,15 @@ const quizData = [
     },
     {
         id: "q4",
-        isMultiple: false,
-        question: "A sales rep has a list of 300 accounts with contacts that they want to load at one time. Which tool should the administrator utilize to import the records to Salesforce?",
+        isMultiple: true,
+        question: "Ursa Major Solar wants to use the Salesforce approval process. What are two characteristics that make a sales process a good fit for the Salesforce approval process? Choose 2 answers",
         options: [
-            { letter: "A", text: "Data Import Wizard" },
-            { letter: "B", text: "Manual Import" },
-            { letter: "C", text: "Dataloader.io" },
-            { letter: "D", text: "Data Loader" }
+            { letter: "A", text: "There is an approval to a queue member for all Opportunities and an additional approval by a Sales VP for Opportunities over a certain amount." },
+            { letter: "B", text: "The first level approval can be denied and automatically routed to the Sales VP for final approval." },
+            { letter: "C", text: "The approval manager is randomly assigned from a public group of managers, and there is a second approval by the Sales VP." },
+            { letter: "D", text: "There are approvals for all Opportunities by a Sales VP where a Sales VP is allowed to delegate their approval to someone else." }
         ],
-        answer: "A"
+        answer: ["A", "B"]
     },
     {
         id: "q5",
@@ -157,15 +157,16 @@ const quizData = [
     },
     {
         id: "q14",
-        isMultiple: false,
-        question: "An administrator at Universal Containers needs an automated way to delete records based on field values. What automated solution should the administrator use?",
+        isMultiple: true,
+        question: "Ursa Major Solar is bringing a new type of solar panel to market. An administrator needs to create a sales process for this new product. Os) What are three considerations for the administrator in this scenario? Choose 3 answers",
         options: [
-            { letter: "A", text: "Process Builder" },
-            { letter: "B", text: "Flow Builder" },
-            { letter: "C", text: "Workflow" },
-            { letter: "D", text: "Automation Studio" }
+            { letter: "A", text: "The record type name assignment becomes permanent upon save of a new record type." },
+            { letter: "B", text: "An opportunity record type will need to be created and assigned to the sales process." },
+            { letter: "C", text: "The record type's page layout is assigned to users through their profile assignments." },
+            { letter: "D", text: "Adding a new value to the record type master picklist value list adds the value to all existing record type picklists." },
+            { letter: "E", text: "All picklist values on the page layout must be added to the master picklist value list or be active values." }
         ],
-        answer: "B"
+        answer: ["B", "C", "E"]
     },
     {
         id: "q15",
@@ -358,5 +359,5 @@ const quizData = [
             { letter: "D", text: "Set up self-registration for the community" }
         ],
         answer: "A"
-    },
+    }
 ];
