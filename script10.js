@@ -81,7 +81,7 @@ const quizData = [
             { letter: "C", text: "Assign a decision element to direct the user to a second screen to hold Specific Search Engine only when Lead Source is 'Search Engine'." },
             { letter: "D", text: "Create a picklist for Specific Search Engine, and set conditional visibility so that it is only shown when Lead Source is 'Search Engine'." }
         ],
-        answer: "C"
+        answer: "D"
     },
     {
         id: "q278",
