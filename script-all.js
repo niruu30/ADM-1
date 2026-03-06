@@ -931,7 +931,7 @@ const quizData = [
     {
         id: "q78",
         isMultiple: false,
-        question: " The administrator for Cloud Kicks has created a screen flow to help service reps ask the same set of questions when customers call in with Issues. This screen should be visible from cases. How should the screen flow be distributed?",
+        question: "The administrator for Cloud Kicks has created a screen flow to help service reps ask the same set of questions when customers call in with Issues. This screen should be visible from cases. How should the screen flow be distributed?",
         options: [
             { letter: "A", text: "Page Layout" },
             { letter: "B", text: "Component Filter" },
@@ -950,7 +950,7 @@ const quizData = [
             { letter: "C", text: "Make the field required and move it to the top of the page." },
             { letter: "D", text: "Create a new page layout and a new section titled highlights panel." }
         ],
-        answer: "D"
+        answer: "A"
     },
     {
         id: "q80",
