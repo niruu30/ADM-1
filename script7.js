@@ -33,7 +33,7 @@ const quizData = [
             { letter: "C", text: "Field-level security" },
             { letter: "D", text: "Organization-wide defaults" }
         ],
-        answer: "B"
+        answer: "A"
     },
     {
         id: "q184",
@@ -98,12 +98,12 @@ const quizData = [
     {
         id: "q189",
         isMultiple: false,
-        question: "At Cloud Kicks, new public articles must be approved before publishing. Users are asked to click the submit for approval button to begin the process but sometimes the user forgets. How should an administrator automate submission so all new public articles will enter the approval process?",
+        question: "The administrator at Universal Containers has a screen flow that helps users create new leads. When Lead Source is 'Search Engine', the administrator needs to require the user to choose a specific search engine from a picklist. If Lead Source is not 'Search Engine', this picklist should be hidden. How should the administrator complete this requirement?",
         options: [
-            { letter: "A", text: "Create a new record type and page layout" },
-            { letter: "B", text: "Default the Submit for Approval button" },
-            { letter: "C", text: "Update Initial Actions" },
-            { letter: "D", text: "Use Process Builder" }
+            { letter: "A", text: "Configure a picklist for Specific Search Engine, and use a validation rule to conditionally show only when Lead Source is 'Search Engine'." },
+            { letter: "B", text: "Use an assignment element, one for when Lead Source is 'Search Engine' and one for everything else." },
+            { letter: "C", text: "Assign a decision element to direct the user to a second screen to hold Specific Search Engine only when Lead Source is 'Search Engine'." },
+            { letter: "D", text: "Create a picklist for Specific Search Engine, and set conditional visibility so that it is only shown when Lead Source is 'Search Engine'." }
         ],
         answer: "D"
     },
@@ -182,14 +182,14 @@ const quizData = [
     {
         id: "q196",
         isMultiple: false,
-        question: "Management at Cloud Kicks is requesting all records from a custom object that are more than 12 months old and have a status of new be deleted. What should the administrator use to honor this request?",
+        question: "Ursa Major Solar has Its business hours set from 9:00 AM to 5:00 PM for the reps that are on Pacific Time. 'The reps on eastern Time need business hours set to start 3 hours earlier to cover for support. How should an administrator solve for this Issue?",
         options: [
-            { letter: "A", text: "Mass delete" },
-            { letter: "B", text: "Data Loader" },
-            { letter: "C", text: "Mass edit from lists" },
-            { letter: "D", text: "Data Import Wizard" }
+            { letter: "A", text: "Set temporary business hours for each time zone." },
+            { letter: "B", text: "Adjust the current business hours to accommodate the Eastern Time Zone." },
+            { letter: "C", text: "Allow the reps to set business hours manually." },
+            { letter: "D", text: "Create one set of business hours per time zone." }
         ],
-        answer: "B"
+        answer: "D"
     },
     {
         id: "q197",
@@ -273,7 +273,7 @@ const quizData = [
             { letter: "C", text: "Create the Dashboard from the Opportunities by User Report, then save it in the shared Dashboard Folder as a Dynamic Dashboard." },
             { letter: "D", text: "Ask the Sales Manager to create the Dashboard from the Opportunities by User Report, select 'View Dashboard as Me' and save in the shared Dashboard Folder." }
         ],
-        answer: "D"
+        answer: "C"
     },
     {
         id: "q204",
@@ -359,5 +359,4 @@ const quizData = [
         ],
         answer: "A"
     }
-
 ];

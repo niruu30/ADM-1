@@ -170,14 +170,14 @@ const quizData = [
     {
         id: "q135",
         isMultiple: false,
-        question: "The administrator at AW Computing wants to send off client welcome tasks and a welcome email to the primary contact automatically when an opportunity is closed won. What automation tool best accomplishes this?",
+        question: "Cloud Kicks has a custom object called Shipments. The company wants to see all the shipment items from an Account page. When an Account is deleted, the shipments should remain. What type of relationship should the administrator make between Shipments and Accounts?",
         options: [
-            { letter: "A", text: "Approval Process" },
-            { letter: "B", text: "Outbound Message" },
-            { letter: "C", text: "Validation Rules" },
-            { letter: "D", text: "Process Builder" }
+            { letter: "A", text: "Shipments should have a lookup to Account." },
+            { letter: "B", text: "Accounts should have a master detail to Shipments." },
+            { letter: "C", text: "Accounts should have a lookup to Shipments." },
+            { letter: "D", text: "Shipments should have a master detail to Accounts." }
         ],
-        answer: "D"
+        answer: "A"
     },
     {
         id: "q136",
@@ -301,15 +301,15 @@ const quizData = [
     },
     {
         id: "q146",
-        isMultiple: false,
-        question: "Cloud Kicks needs to be able to show different picklist values for sales and marketing users. Which option will meet this requirement?",
+        isMultiple: true,
+        question: "At Universal Containers, users would like to be able to share Salesforce records with other members of their team, while collaborating around general topics as well. Which are two considerations for enabling this functionality? Choose 2 answers",
         options: [
-            { letter: "A", text: "Two page layouts, one record type, two picklists" },
-            { letter: "B", text: "Two Permission sets, one record type, one picklist" },
-            { letter: "C", text: "One record type, two profiles, one picklist" },
-            { letter: "D", text: "One page layout, two record types, one picklist" }
+            { letter: "A", text: "An administrator needs to create a group to enable record sharing" },
+            { letter: "B", text: "Object layouts should be configured to include the groups related list." },
+            { letter: "C", text: "Collaboration groups are created automatically for every department." },
+            { letter: "D", text: "The Add Record action must be configured in the group publisher." }
         ],
-        answer: "D"
+        answer: ["A", "B"]
     },
     {
         id: "q147",
@@ -359,5 +359,4 @@ const quizData = [
         ],
         answer: "D"
     }
-    
 ];

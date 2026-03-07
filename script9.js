@@ -86,14 +86,14 @@ const quizData = [
     {
         id: "q248",
         isMultiple: false,
-        question: "A senior realtor at Ursa Major Solar has received a long list of new residential homes to sell to for the spring. Management needs the spreadsheet of the new residential homes and a separate spreadsheet of pricebooks loaded into Salesforce. Which Salesforce data tool will meet this request?",
+        question: "An analytics user at Cloud Kicks needs Read, Create, and Edit access for objects and should be restricted from deleting any records. What should the administrator do to meet this requirement?",
         options: [
-            { letter: "A", text: "Data Import Wizard" },
-            { letter: "B", text: "Data Loader" },
-            { letter: "C", text: "Mass Create Records" },
-            { letter: "D", text: "Mass Transfer Records" }
+            { letter: "A", text: "Create and assign a permission set that includes Read, Create, and Edit access." },
+            { letter: "B", text: "Assign the standard System Administrator profile to the analytics user." },
+            { letter: "C", text: "Create and assign a custom profile with Delete access removed for each object." },
+            { letter: "D", text: "Give the user View All access and assign them to the highest role in the role hierarchy." }
         ],
-        answer: "B"
+        answer: "C"
     },
     {
         id: "q249",
@@ -122,14 +122,14 @@ const quizData = [
     {
         id: "q251",
         isMultiple: false,
-        question: "Ursa Major Solar wants to upload 10,000 Campaigns to Salesforce. Which tool should the administrator utilize to accomplish this task?",
+        question: "Ursa Major Solar wants to automatically notify a manager about any cases awaiting a response from an agent for more than 2 hours after case creation. Which feature should an administrator use to fulfill this requirement?",
         options: [
-            { letter: "A", text: "Data Import Wizard" },
-            { letter: "B", text: "Data Loader" },
-            { letter: "C", text: "Bulk Data Load Jobs" },
-            { letter: "D", text: "AppExchange package" }
+            { letter: "A", text: "Omni-Channel Supervisor" },
+            { letter: "B", text: "Formula field" },
+            { letter: "C", text: "Assignment Rule" },
+            { letter: "D", text: "Case Escalation Rule" }
         ],
-        answer: "B"
+        answer: "D"
     },
     {
         id: "q252",
@@ -194,14 +194,14 @@ const quizData = [
     {
         id: "q257",
         isMultiple: false,
-        question: "An administrator at Cloud Kicks needs to export a file of closed won opportunities from the last 90 days. The file should include the Opportunity Name, ID, Close Date, and Amount. How should the administrator export this file?",
+        question: "AW Computing (AWC) occasionally works with Independent contractors, who the company stores as Contacts In Salesforce. Contractors often change agencies, and AWC wants to maintain the historical accuracy of the record. What should AWC use to track Contacts?",
         options: [
-            { letter: "A", text: "Data Export Service" },
-            { letter: "B", text: "Data Import Wizard" },
-            { letter: "C", text: "Data Export Wizard" },
-            { letter: "D", text: "Data Loader" }
+            { letter: "A", text: "Use a partner community to track the Contacts." },
+            { letter: "B", text: "Enable Contacts to multiple Accounts." },
+            { letter: "C", text: "Create a new Contact record for each agency." },
+            { letter: "D", text: "Create a junction object to track many-to-many relationship. Solar need to see different fields on the Case." }
         ],
-        answer: "D"
+        answer: "B"
     },
     {
         id: "q258",

@@ -62,14 +62,14 @@ const quizData = [
     {
         id: "q96",
         isMultiple: false,
-        question: "Northern Trail Outfitters has requested that when the Referral Date field is updated on the custom object Referral Source, the parent object Referral also needs to be updated. Which automation solution should an administrator use to meet this request?",
+        question: "Sales reps at Cloud Kicks want to be notified when they have a high likelihood of winning an opportunity over $1,000,000. Which feature meets this requirement?",
         options: [
-            { letter: "A", text: "Approval Process" },
-            { letter: "B", text: "Workflow Field Update" },
-            { letter: "C", text: "Lightning Web Component" },
-            { letter: "D", text: "Process Builder" }
+            { letter: "A", text: "Big Deal Alerts" },
+            { letter: "B", text: "Activity Timeline" },
+            { letter: "C", text: "Key Deals" },
+            { letter: "D", text: "Performance Chart" }
         ],
-        answer: "D"
+        answer: "A"
     },
     {
         id: "q97",
@@ -252,7 +252,7 @@ const quizData = [
             { letter: "C", text: "Sales Quotas" },
             { letter: "D", text: "Opportunity Stages" }
         ],
-        answer: ["B", "C"]
+        answer: ["B", "D"]
     },
     {
         id: "q112",
@@ -363,5 +363,4 @@ const quizData = [
         ],
         answer: ["A", "C", "E"]
     }
-
 ];

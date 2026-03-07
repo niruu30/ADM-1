@@ -85,15 +85,15 @@ const quizData = [
     },
     {
         id: "q218",
-        isMultiple: false,
-        question: "An administrator at Cloud Kicks has a flow In production that is supposed to emit new words. However, no new records are being created. What could the issue be?",
+        isMultiple: true,
+        question: "Cloud Kicks has a customer success agent going on leave and needs to change ownership on multiple cases. Which two users are able to fulfill this request? Choose 2 answers",
         options: [
-            { letter: "A", text: "The flow is Inactive." },
-            { letter: "B", text: "The flow Is read only." },
-            { letter: "C", text: "The flow trigger is missing." },
-            { letter: "D", text: "The flow url Is deactivated." }
+            { letter: "A", text: "A user with a manager role above the agent." },
+            { letter: "B", text: "A user with the System Administrator profile." },
+            { letter: "C", text: "A user with Read permission on the account." },
+            { letter: "D", text: "A user with the Manage Cases permission." }
         ],
-        answer: "A"
+        answer: ["B", "D"]
     },
     {
         id: "q219",
@@ -267,14 +267,14 @@ const quizData = [
     {
         id: "q233",
         isMultiple: true,
-        question: "The administrator at Cloud Kicks has a custom picklist field on Lead, which Is missing on the Contact when leads are converted. Which two Items should the administrator do to make sure these values are populated? Choose 2 answers",
+        question: "Ursa Major Solar (UMS) wants to assign a Lightning for Qutlook layout. Which two optiens can UMS assign this layout to? Choose 2 answers",
         options: [
-            { letter: "A", text: "Create a custom picklist field on Contact." },
-            { letter: "B", text: "Update the picklist value with a validation rule." },
-            { letter: "C", text: "Set the picklist field to be required on the Lead object." },
-            { letter: "D", text: "Map the picklist field on the Lead to the Contact." }
+            { letter: "A", text: "Profile" },
+            { letter: "B", text: "Role" },
+            { letter: "C", text: "User" },
+            { letter: "D", text: "Team" }
         ],
-        answer: ["A", "D"]
+        answer: ["A", "C"]
     },
     {
         id: "q234",
@@ -362,5 +362,4 @@ const quizData = [
         ],
         answer: ["C", "D", "E"]
     }
-
 ];

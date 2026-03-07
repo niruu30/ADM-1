@@ -62,14 +62,14 @@ const quizData = [
     {
         id: "q66",
         isMultiple: false,
-        question: "Northern Trail Outfitters held an event for hikers to blaze the trail for the new year. Their marketing team collected over a million new lead records to upload into Salesforce. What is the recommended method for uploading this data?",
+        question: "Cloud Kicks Is working on a better way to track its product shipments utilizing Salesforce. Which field type should an administrator use to capture coordinates?",
         options: [
-            { letter: "A", text: "Lightning Sync" },
-            { letter: "B", text: "AppExchange app" },
-            { letter: "C", text: "Data Import Wizard" },
-            { letter: "D", text: "Data Loader" }
+            { letter: "A", text: "Geolocation" },
+            { letter: "B", text: "External lookup" },
+            { letter: "C", text: "Custom address" },
+            { letter: "D", text: "Geofence" }
         ],
-        answer: "D"
+        answer: "A"
     },
     {
         id: "q67",
@@ -98,12 +98,12 @@ const quizData = [
     {
         id: "q69",
         isMultiple: false,
-        question: "Northern Trail Outfitters has asked an administrator to ensure that when a contact with a title of CEO is created, the contact's account record gets updated with the CEO's name. Which feature should an administrator use to implement this request?",
+        question: "An administrator gets a rush request from Human Resources to remove a user's access to Salesforce Immediately. The user is part of a hierarchy field called Direct Manager. What should the administrator do to fulfill the request?",
         options: [
-            { letter: "A", text: "Process Builder" },
-            { letter: "B", text: "Validation Rule" },
-            { letter: "C", text: "Workflow Rule" },
-            { letter: "D", text: "Quick Action" }
+            { letter: "A", text: "Freeze the user to prevent them from logging in while removing them from being referenced in the Direct Manager field." },
+            { letter: "B", text: "Deactivate the user and delete any records where they are referenced in the Direct Manager field." },
+            { letter: "C", text: "Change the user's profile to read-only while removing them from being referenced in the Direct Manager field." },
+            { letter: "D", text: "Delete the user and leave all records where they are referenced in the Direct Manager field without changes." }
         ],
         answer: "A"
     },

@@ -86,14 +86,14 @@ const quizData = [
     {
         id: "q8",
         isMultiple: false,
-        question: "Northern Trail Outfitters is partnering with a new business and needs to import 100,000 new records nightly into its Salesforce organization. Which tool should the administrator use to accomplish this task?",
+        question: "The administrator at Cloud Kicks deleted a custom field but realized there is a business unit that still uses the field. What should an administrator take into consideration when undeleting the field?",
         options: [
-            { letter: "A", text: "Mass Transfer Records" },
-            { letter: "B", text: "Third-party tool from the AppExchange" },
-            { letter: "C", text: "Data Loader" },
-            { letter: "D", text: "Data Import Wizard" }
+            { letter: "A", text: "The field needs to be re-added to page layouts." },
+            { letter: "B", text: "The field needs to be restored from the recycle bin." },
+            { letter: "C", text: "The field history will remain deleted." },
+            { letter: "D", text: "The field needs to be re-added to reports." }
         ],
-        answer: "C"
+        answer: "A"
     },
     {
         id: "q9",
@@ -195,14 +195,14 @@ const quizData = [
     {
         id: "q17",
         isMultiple: false,
-        question: "At Cloud Kicks, new public articles must be approved before publishing. Users are asked to click to the submit for approval button to begin the process but sometimes the user forgets. How should an administrator automate submission so al new public articles will enter the approval process?",
+        question: "The business development team at Cloud Kicks thinks the Account creation process has too many fields to fill out and the page feels cluttered. They have requested the administrator to simplify the process. Which automation tool should an administrator use?",
         options: [
-            { letter: "A", text: "Default the Submit for Approval button" },
-            { letter: "B", text: "Update initial Actions" },
-            { letter: "C", text: "Use Process Builder" },
-            { letter: "D", text: "Create a new record type and page layout" }
+            { letter: "A", text: "Flow Builder" },
+            { letter: "B", text: "Validation Rule" },
+            { letter: "C", text: "Workflow Rule" },
+            { letter: "D", text: "Approval Process" }
         ],
-        answer: "C"
+        answer: "A"
     },
     {
         id: "q18",
@@ -214,7 +214,7 @@ const quizData = [
             { letter: "C", text: "A Use conditional visibility to hide the unnecessary question." },
             { letter: "D", text: "Use branching in the flow screen to show the proper scenario." }
         ],
-        answer: "B"
+        answer: "C"
     },
     {
         id: "q19",
@@ -788,14 +788,14 @@ const quizData = [
     {
         id: "q66",
         isMultiple: false,
-        question: "Northern Trail Outfitters held an event for hikers to blaze the trail for the new year. Their marketing team collected over a million new lead records to upload into Salesforce. What is the recommended method for uploading this data?",
+        question: "Cloud Kicks Is working on a better way to track its product shipments utilizing Salesforce. Which field type should an administrator use to capture coordinates?",
         options: [
-            { letter: "A", text: "Lightning Sync" },
-            { letter: "B", text: "AppExchange app" },
-            { letter: "C", text: "Data Import Wizard" },
-            { letter: "D", text: "Data Loader" }
+            { letter: "A", text: "Geolocation" },
+            { letter: "B", text: "External lookup" },
+            { letter: "C", text: "Custom address" },
+            { letter: "D", text: "Geofence" }
         ],
-        answer: "D"
+        answer: "A"
     },
     {
         id: "q67",
@@ -824,12 +824,12 @@ const quizData = [
     {
         id: "q69",
         isMultiple: false,
-        question: "Northern Trail Outfitters has asked an administrator to ensure that when a contact with a title of CEO is created, the contact's account record gets updated with the CEO's name. Which feature should an administrator use to implement this request?",
+        question: "An administrator gets a rush request from Human Resources to remove a user's access to Salesforce Immediately. The user is part of a hierarchy field called Direct Manager. What should the administrator do to fulfill the request?",
         options: [
-            { letter: "A", text: "Process Builder" },
-            { letter: "B", text: "Validation Rule" },
-            { letter: "C", text: "Workflow Rule" },
-            { letter: "D", text: "Quick Action" }
+            { letter: "A", text: "Freeze the user to prevent them from logging in while removing them from being referenced in the Direct Manager field." },
+            { letter: "B", text: "Deactivate the user and delete any records where they are referenced in the Direct Manager field." },
+            { letter: "C", text: "Change the user's profile to read-only while removing them from being referenced in the Direct Manager field." },
+            { letter: "D", text: "Delete the user and leave all records where they are referenced in the Direct Manager field without changes." }
         ],
         answer: "A"
     },
@@ -1148,14 +1148,14 @@ const quizData = [
     {
         id: "q96",
         isMultiple: false,
-        question: "Northern Trail Outfitters has requested that when the Referral Date field is updated on the custom object Referral Source, the parent object Referral also needs to be updated. Which automation solution should an administrator use to meet this request?",
+        question: "Sales reps at Cloud Kicks want to be notified when they have a high likelihood of winning an opportunity over $1,000,000. Which feature meets this requirement?",
         options: [
-            { letter: "A", text: "Approval Process" },
-            { letter: "B", text: "Workflow Field Update" },
-            { letter: "C", text: "Lightning Web Component" },
-            { letter: "D", text: "Process Builder" }
+            { letter: "A", text: "Big Deal Alerts" },
+            { letter: "B", text: "Activity Timeline" },
+            { letter: "C", text: "Key Deals" },
+            { letter: "D", text: "Performance Chart" }
         ],
-        answer: "D"
+        answer: "A"
     },
     {
         id: "q97",

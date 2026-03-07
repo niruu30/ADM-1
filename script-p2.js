@@ -132,7 +132,7 @@ const quizData = [
             { letter: "C", text: "Sales Quotas" },
             { letter: "D", text: "Opportunity Stages" }
         ],
-        answer: ["B", "C"]
+        answer: ["B", "D"]
     },
     {
         id: "q112",
@@ -414,14 +414,14 @@ const quizData = [
     {
         id: "q135",
         isMultiple: false,
-        question: "The administrator at AW Computing wants to send off client welcome tasks and a welcome email to the primary contact automatically when an opportunity is closed won. What automation tool best accomplishes this?",
+        question: "Cloud Kicks has a custom object called Shipments. The company wants to see all the shipment items from an Account page. When an Account is deleted, the shipments should remain. What type of relationship should the administrator make between Shipments and Accounts?",
         options: [
-            { letter: "A", text: "Approval Process" },
-            { letter: "B", text: "Outbound Message" },
-            { letter: "C", text: "Validation Rules" },
-            { letter: "D", text: "Process Builder" }
+            { letter: "A", text: "Shipments should have a lookup to Account." },
+            { letter: "B", text: "Accounts should have a master detail to Shipments." },
+            { letter: "C", text: "Accounts should have a lookup to Shipments." },
+            { letter: "D", text: "Shipments should have a master detail to Accounts." }
         ],
-        answer: "D"
+        answer: "A"
     },
     {
         id: "q136",
@@ -545,15 +545,15 @@ const quizData = [
     },
     {
         id: "q146",
-        isMultiple: false,
-        question: "Cloud Kicks needs to be able to show different picklist values for sales and marketing users. Which option will meet this requirement?",
+        isMultiple: true,
+        question: "At Universal Containers, users would like to be able to share Salesforce records with other members of their team, while collaborating around general topics as well. Which are two considerations for enabling this functionality? Choose 2 answers",
         options: [
-            { letter: "A", text: "Two page layouts, one record type, two picklists" },
-            { letter: "B", text: "Two Permission sets, one record type, one picklist" },
-            { letter: "C", text: "One record type, two profiles, one picklist" },
-            { letter: "D", text: "One page layout, two record types, one picklist" }
+            { letter: "A", text: "An administrator needs to create a group to enable record sharing" },
+            { letter: "B", text: "Object layouts should be configured to include the groups related list." },
+            { letter: "C", text: "Collaboration groups are created automatically for every department." },
+            { letter: "D", text: "The Add Record action must be configured in the group publisher." }
         ],
-        answer: "D"
+        answer: ["A", "B"]
     },
     {
         id: "q147",
@@ -701,15 +701,15 @@ const quizData = [
     },
     {
         id: "q159",
-        isMultiple: false,
-        question: "Ursa Major Solar users want to utilize Salesforce Knowledge. Which statement accurately describes Knowledge?",
+        isMultiple: true,
+        question: "Which two action should an administrator perform to provide a sales team with an easy solution for gathering customer requirements and sharing presentations with the customers? Choose 2 answers",
         options: [
-            { letter: "A", text: "An automated tool that closes Cases based on historical information" },
-            { letter: "B", text: "A knowledge base comprised of articles that can be written and utilized by support agents" },
-            { letter: "C", text: "A knowledge base that uses Machine Learning to generate an article to solve customer support issues" },
-            { letter: "D", text: "An automated Machine Learning tool that converts Leads to Opportunities given a predefined set of conditions" }
+            { letter: "A", text: "Add customers to libraries" },
+            { letter: "B", text: "Use Salesforce Files to post presentation in Chatter." },
+            { letter: "C", text: "Add customers to private Chatter groups." },
+            { letter: "D", text: "Ensure opportunity teams are created for customers." }
         ],
-        answer: "B"
+        answer: ["B", "C"]
     },
     {
         id: "q160",
@@ -1003,7 +1003,7 @@ const quizData = [
             { letter: "C", text: "Field-level security" },
             { letter: "D", text: "Organization-wide defaults" }
         ],
-        answer: "B"
+        answer: "A"
     },
     {
         id: "q184",
@@ -1068,12 +1068,12 @@ const quizData = [
     {
         id: "q189",
         isMultiple: false,
-        question: "At Cloud Kicks, new public articles must be approved before publishing. Users are asked to click the submit for approval button to begin the process but sometimes the user forgets. How should an administrator automate submission so all new public articles will enter the approval process?",
+        question: "The administrator at Universal Containers has a screen flow that helps users create new leads. When Lead Source is 'Search Engine', the administrator needs to require the user to choose a specific search engine from a picklist. If Lead Source is not 'Search Engine', this picklist should be hidden. How should the administrator complete this requirement?",
         options: [
-            { letter: "A", text: "Create a new record type and page layout" },
-            { letter: "B", text: "Default the Submit for Approval button" },
-            { letter: "C", text: "Update Initial Actions" },
-            { letter: "D", text: "Use Process Builder" }
+            { letter: "A", text: "Configure a picklist for Specific Search Engine, and use a validation rule to conditionally show only when Lead Source is 'Search Engine'." },
+            { letter: "B", text: "Use an assignment element, one for when Lead Source is 'Search Engine' and one for everything else." },
+            { letter: "C", text: "Assign a decision element to direct the user to a second screen to hold Specific Search Engine only when Lead Source is 'Search Engine'." },
+            { letter: "D", text: "Create a picklist for Specific Search Engine, and set conditional visibility so that it is only shown when Lead Source is 'Search Engine'." }
         ],
         answer: "D"
     },
@@ -1152,14 +1152,14 @@ const quizData = [
     {
         id: "q196",
         isMultiple: false,
-        question: "Management at Cloud Kicks is requesting all records from a custom object that are more than 12 months old and have a status of new be deleted. What should the administrator use to honor this request?",
+        question: "Ursa Major Solar has Its business hours set from 9:00 AM to 5:00 PM for the reps that are on Pacific Time. 'The reps on eastern Time need business hours set to start 3 hours earlier to cover for support. How should an administrator solve for this Issue?",
         options: [
-            { letter: "A", text: "Mass delete" },
-            { letter: "B", text: "Data Loader" },
-            { letter: "C", text: "Mass edit from lists" },
-            { letter: "D", text: "Data Import Wizard" }
+            { letter: "A", text: "Set temporary business hours for each time zone." },
+            { letter: "B", text: "Adjust the current business hours to accommodate the Eastern Time Zone." },
+            { letter: "C", text: "Allow the reps to set business hours manually." },
+            { letter: "D", text: "Create one set of business hours per time zone." }
         ],
-        answer: "B"
+        answer: "D"
     },
     {
         id: "q197",

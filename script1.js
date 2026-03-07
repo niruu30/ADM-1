@@ -86,14 +86,14 @@ const quizData = [
     {
         id: "q8",
         isMultiple: false,
-        question: "Northern Trail Outfitters is partnering with a new business and needs to import 100,000 new records nightly into its Salesforce organization. Which tool should the administrator use to accomplish this task?",
+        question: "The administrator at Cloud Kicks deleted a custom field but realized there is a business unit that still uses the field. What should an administrator take into consideration when undeleting the field?",
         options: [
-            { letter: "A", text: "Mass Transfer Records" },
-            { letter: "B", text: "Third-party tool from the AppExchange" },
-            { letter: "C", text: "Data Loader" },
-            { letter: "D", text: "Data Import Wizard" }
+            { letter: "A", text: "The field needs to be re-added to page layouts." },
+            { letter: "B", text: "The field needs to be restored from the recycle bin." },
+            { letter: "C", text: "The field history will remain deleted." },
+            { letter: "D", text: "The field needs to be re-added to reports." }
         ],
-        answer: "C"
+        answer: "A"
     },
     {
         id: "q9",
@@ -195,14 +195,14 @@ const quizData = [
     {
         id: "q17",
         isMultiple: false,
-        question: "At Cloud Kicks, new public articles must be approved before publishing. Users are asked to click to the submit for approval button to begin the process but sometimes the user forgets. How should an administrator automate submission so al new public articles will enter the approval process?",
+        question: "The business development team at Cloud Kicks thinks the Account creation process has too many fields to fill out and the page feels cluttered. They have requested the administrator to simplify the process. Which automation tool should an administrator use?",
         options: [
-            { letter: "A", text: "Default the Submit for Approval button" },
-            { letter: "B", text: "Update initial Actions" },
-            { letter: "C", text: "Use Process Builder" },
-            { letter: "D", text: "Create a new record type and page layout" }
+            { letter: "A", text: "Flow Builder" },
+            { letter: "B", text: "Validation Rule" },
+            { letter: "C", text: "Workflow Rule" },
+            { letter: "D", text: "Approval Process" }
         ],
-        answer: "C"
+        answer: "A"
     },
     {
         id: "q18",
@@ -214,7 +214,7 @@ const quizData = [
             { letter: "C", text: "A Use conditional visibility to hide the unnecessary question." },
             { letter: "D", text: "Use branching in the flow screen to show the proper scenario." }
         ],
-        answer: "B"
+        answer: "C"
     },
     {
         id: "q19",

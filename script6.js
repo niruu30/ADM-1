@@ -97,15 +97,15 @@ const quizData = [
     },
     {
         id: "q159",
-        isMultiple: false,
-        question: "Ursa Major Solar users want to utilize Salesforce Knowledge. Which statement accurately describes Knowledge?",
+        isMultiple: true,
+        question: "Which two action should an administrator perform to provide a sales team with an easy solution for gathering customer requirements and sharing presentations with the customers? Choose 2 answers",
         options: [
-            { letter: "A", text: "An automated tool that closes Cases based on historical information" },
-            { letter: "B", text: "A knowledge base comprised of articles that can be written and utilized by support agents" },
-            { letter: "C", text: "A knowledge base that uses Machine Learning to generate an article to solve customer support issues" },
-            { letter: "D", text: "An automated Machine Learning tool that converts Leads to Opportunities given a predefined set of conditions" }
+            { letter: "A", text: "Add customers to libraries" },
+            { letter: "B", text: "Use Salesforce Files to post presentation in Chatter." },
+            { letter: "C", text: "Add customers to private Chatter groups." },
+            { letter: "D", text: "Ensure opportunity teams are created for customers." }
         ],
-        answer: "B"
+        answer: ["B", "C"]
     },
     {
         id: "q160",
@@ -365,5 +365,4 @@ const quizData = [
         ],
         answer: ["A", "D"]
     }
-
 ];
