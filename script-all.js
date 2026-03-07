@@ -1338,7 +1338,7 @@ const quizData = [
             { letter: "C", text: "Sales Quotas" },
             { letter: "D", text: "Opportunity Stages" }
         ],
-        answer: ["B", "C"]
+        answer: ["B", "D"]
     },
     {
         id: "q112",
